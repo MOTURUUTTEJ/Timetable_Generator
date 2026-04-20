@@ -32,9 +32,7 @@ A zero-dependency web application (HTML + Tailwind + Vanilla JavaScript) to gene
 ## 🚀 Quick Start
 
 1. Clone/download this repository.
-2. Open:
-   `/home/runner/work/Timetable_Generator/Timetable_Generator/Final_Timetable_Generater.html`
-   in a browser.
+2. Open `./Final_Timetable_Generater.html` in a browser.
 3. Configure departments and generate timetables.
 
 ---
