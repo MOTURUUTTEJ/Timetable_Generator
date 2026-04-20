@@ -3,8 +3,12 @@
 
 This is a powerful, zero-dependency web application built with vanilla JavaScript to generate complex, coordinated timetables for multiple university departments. It intelligently handles shared resources and faculty assignments to create conflict-free schedules.
 
-![Screenshot of the Timetable Generator](https://i.imgur.com/your-screenshot-url.png)
-*(**Note**: You should replace the URL above with a link to a screenshot of your application.)*
+![Timetable Generator Screenshot](https://via.placeholder.com/1280x720.png?text=Timetable+Generator+Screenshot)
+
+> 📸 **Screenshot setup:**
+> 1. Take a screenshot of the app after generating a timetable.
+> 2. Save it in this repository as `assets/screenshot-placeholder.png` (or update the path above).
+> 3. Commit the image so it renders correctly on GitHub.
 
 ---
 
@@ -39,3 +43,54 @@ The application will guide you through a simple 3-step process:
 1.  **Select** the departments you want to schedule.
 2.  **Configure** the number of sections, subjects, and faculty assignments for each selected department.
 3.  **Generate** the coordinated timetables and view the results.
+
+---
+
+## ✅ Setup Verification & Testing
+
+Since this is a single-file web app, there is no test runner setup. Use this quick verification checklist after any change:
+
+1. Open `Final_Timetable_Generater.html` in a browser.
+2. Select at least two branches and configure sections.
+3. Generate timetables and confirm section-wise output appears.
+4. Open faculty view and search for a faculty member.
+5. Use **Export JSON** and verify a file is downloaded.
+6. Use browser print preview to confirm print-friendly formatting.
+
+---
+
+## 🌐 Browser Compatibility
+
+This application is tested for modern evergreen browsers:
+
+- Google Chrome (latest)
+- Microsoft Edge (latest)
+- Mozilla Firefox (latest)
+- Brave (latest)
+
+> Safari should work for core functionality, but print/export rendering should be verified on your target version.
+
+---
+
+## ⚡ Performance Notes
+
+- Best experience on desktop/laptop screens due to dense timetable layout.
+- Generation time increases with more branches, sections, and cross-branch faculty constraints.
+- For very large configurations, generate once and use JSON export/print instead of repeated runs.
+- The app runs fully client-side; performance depends on browser and machine resources.
+
+---
+
+## 🧰 Troubleshooting
+
+**Problem:** Page opens but styles are missing.  
+**Fix:** Ensure internet access is available for the Tailwind CDN.
+
+**Problem:** Timetable generation fails or shows an error.  
+**Fix:** Verify every subject has an assigned faculty and required fields are not empty.
+
+**Problem:** Print layout looks compressed.  
+**Fix:** Use landscape mode and disable browser headers/footers in print settings.
+
+**Problem:** Exported JSON is not downloading.  
+**Fix:** Allow downloads/pop-ups for the site and retry.
